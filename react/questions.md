@@ -1,3 +1,19 @@
+- [Interview Questions on React](#interview-questions-on-react)
+  - [What is DOM?](#what-is-dom)
+  - [What is the difference between absolute and relative position?](#what-is-the-difference-between-absolute-and-relative-position)
+  - [What are closures in Javascript?](#what-are-closures-in-javascript)
+  - [Differentiate ES5 to ES6](#differentiate-es5-to-es6)
+  - [Differentiate from forEach and map array methods](#differentiate-from-foreach-and-map-array-methods)
+  - [What is the difference between class and function components in React?](#what-is-the-difference-between-class-and-function-components-in-react)
+  - [useMemo and useCallback hooks](#usememo-and-usecallback-hooks)
+  - [How to pass data from child to parent component in React?](#how-to-pass-data-from-child-to-parent-component-in-react)
+  - [How to make application perfomance?](#how-to-make-application-perfomance)
+  - [What are the different life cycles methods of React?](#what-are-the-different-life-cycles-methods-of-react)
+  - [What is the difference between ContextAPI and Redux?](#what-is-the-difference-between-contextapi-and-redux)
+  - [What is a state?](#what-is-a-state)
+  - [On hooks](#on-hooks)
+    - [useEffect](#useeffect)
+
 # Interview Questions on React
 
 ## What is DOM?
@@ -120,3 +136,11 @@ const addTodoAction = {
 **Reducers** are the only way to update the state. It receives the current `state` and an `action` object, decides how to update the sate if necessary and returns the new state: `(state, action) => newState`. It is similar to an event listener which handles events based on the received action (event) type.
 
 **ContextAPI** has two steps: a provider and a consumer. The data can be provided at the top of the application and then any component can consume it. It can be used for authentication properties.
+
+## What is a state?
+
+A state is a Javascript value that updates (or re-render) when a new value is triggered into this variable.
+
+## On hooks
+
+### useEffect
